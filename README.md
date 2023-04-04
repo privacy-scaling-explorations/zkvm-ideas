@@ -1,5 +1,7 @@
 # ZK-WASM with Nova
 
+**NOTE: Current live version is here https://hackmd.io/0bcDwP5QQp-eiAMVEulH7Q - this README/repo will updated with it once it is more stable**
+
 **Goal**: Understand feasibility of a (Super)-Nova based ZK VM such as ZK-WASM or ZK-LLVM. Specifically, understanding if a significant speed up(x10-x100+) is possible vs existing ZK-EVM architecture, and if there's a competitive advantage vs e.g. FRI-based approaches.
 
 Example use cases include arbitrary computation in a browser setting and restricted memory environments, and to do so in a short time frame.
