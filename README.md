@@ -6,6 +6,7 @@ Example use cases include arbitrary computation in a browser setting and restric
 
 ## Current direction
 
+
 We are looking for a way on which [Nova](https://eprint.iacr.org/2021/370) and/or [SuperNova](https://eprint.iacr.org/2022/1758.pdf) schemes can allow us to have:
 
 - Lower memmory (RAM) consumption for the prover (see costs of Scroll or Polygon ZKEVM prover implementations).
@@ -13,6 +14,7 @@ We are looking for a way on which [Nova](https://eprint.iacr.org/2021/370) and/o
 - We want the scheme to be significantly different than the Scroll/PSE one. So instead of splitting into general and big-purpose circuits, we would like to be able to have microopcode-style approaches or similar.
 - We also want the solution to be scalable and highly-parallelizable. So that the previously mentioned microopcode-style circuits can be proved in parallel with different instances.
 - We want the parallel proving instances to not need to have any communication nor interaction while still ensuring consistent memory treatment as well as consistent opcode execution order.
+
 
 **Note:** A zk-RICS-V can be the tartget machine opcode that we are looking for.
 
